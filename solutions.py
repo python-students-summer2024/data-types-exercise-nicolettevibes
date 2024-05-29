@@ -13,7 +13,7 @@ def calculate_profit():
     """
     total_sales = input("Enter in the projected amount of total sales: ")
     profit = float(total_sales) * 0.23
-    print("Profit: ${:.2f}".format(profit))
+    print("Profit: ${:,.2f}".format(profit))
 
 def calculate_quotient_and_remainder():
     """
